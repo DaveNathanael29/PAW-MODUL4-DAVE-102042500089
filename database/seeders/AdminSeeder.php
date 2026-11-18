@@ -18,7 +18,7 @@ class AdminSeeder extends Seeder
             User::create([
                 'name'              => 'Admin Perpustakaan',
                 'email'             => 'admin@telkomlibrary.ac.id',
-                'password'          => Hash::make('admin123'),
+                'password'          => Hash::make('Admin123'),
                 'email_verified_at' => now(),
                 'role'              => 'admin',
             ]);
@@ -29,7 +29,7 @@ class AdminSeeder extends Seeder
             User::create([
                 'name'              => 'Rio Mahasiswa',
                 'email'             => 'mahasiswa@telkomlibrary.ac.id',
-                'password'          => Hash::make('mahasiswa123'),
+                'password'          => Hash::make('admin123'),
                 'email_verified_at' => now(),
                 'role'              => 'mahasiswa',
             ]);

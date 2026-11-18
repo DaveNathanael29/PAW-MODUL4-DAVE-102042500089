@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<!-- Statistik Cards -->
+<!-- Statistik Card -->
 <div class="row g-3 mb-4">
     <div class="col-sm-6 col-xl-3">
         <div class="card p-3 shadow-sm bg-white">

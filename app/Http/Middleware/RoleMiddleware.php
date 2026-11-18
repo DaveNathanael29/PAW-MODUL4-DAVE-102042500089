@@ -22,7 +22,7 @@ class RoleMiddleware
 
         // Jika role pengguna tidak termasuk dalam daftar role yang diizinkan
         if (!in_array($request->user()->role, $roles)) {
-            abort(403, 'Anda tidak memiliki akses ke halaman ini.');
+            return redirect()->back()->with('error', 'Akses ditolak! Anda tidak memiliki izin untuk mengakses halaman tersebut.');
         }
 
         return $next($request);
